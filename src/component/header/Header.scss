@@ -1,0 +1,32 @@
+.header-item {
+    display: flex;
+    align-items: center;
+    color:white;
+    font-size: 1.2rem;
+    margin: .8rem;
+    transition: all .4s;
+    padding: .3rem;
+    &:hover{
+        background-color: gray;
+    }
+    cursor: pointer;
+    &--link{
+        margin-left: .5rem;
+    }
+    &--lg{
+        font-size: 1rem;
+        margin: .6rem;
+    }
+    &--md{
+        font-size: .8rem;
+        margin: .5rem;
+    }
+}
+.header-none{
+    box-shadow: none;
+}
+.navbar-color{
+    background-color: #4B515D;
+}
+
+

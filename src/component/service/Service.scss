@@ -1,0 +1,72 @@
+.service {
+    box-shadow: none;
+<<<<<<< HEAD
+    margin-top: 2rem;
+=======
+    margin-top: 10rem;
+    scroll-margin-top: 5rem;
+>>>>>>> 957a57a... first init
+
+    &-side {
+
+        width: 2rem;
+        height: 100%;
+
+
+    }
+    &-btn{
+        margin-top: .4rem;
+    }
+}
+.text-clr{
+    color: black;
+}
+
+.fancy-box {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+}
+
+.first-s {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 2rem;
+
+}
+
+.second-s {
+    width: 2rem;
+    background: #ad5389;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.third-s{
+    width: 2rem;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.fourth-s{
+    width: 2rem;
+    background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+<<<<<<< HEAD
+=======
+}
+.pd{
+    padding-bottom: 10rem;
+>>>>>>> 957a57a... first init
+}

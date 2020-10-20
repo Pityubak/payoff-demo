@@ -1,0 +1,53 @@
+.modal-ft {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.calculator{
+    padding-top:10rem;
+   
+    &-title {
+      
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    &-h{
+        background-color: white;
+    }
+    &-sum{
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    &-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.card-col{
+ min-width: 20rem;
+ &-pd{
+     margin-top: 1rem;
+ }
+ &--var{
+    background-color: steelblue;
+ }
+}
+.kata{
+    padding:.8rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.spec-select{
+    border: 2px solid red;
+}
+.fs{
+    font-size: .9rem;
+}

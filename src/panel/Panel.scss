@@ -1,0 +1,78 @@
+.panel {
+    text-align: center;
+    color: white;
+
+
+    padding: 1rem;
+    flex: 1;
+    transition: .6s;
+    min-width: 15rem;
+   
+    transition: all .4s;
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+        transform: scale(1.1);
+        z-index: 2000;
+        box-shadow: .5rem .5rem .5rem rgba(black, .5);
+
+
+    }
+
+    &:hover +.circle {
+        animation-play-state: running;
+    }
+
+
+    &-img {
+        color: white;
+        padding: 5rem;
+
+        z-index: 100;
+
+    }
+
+    p {
+
+        color: white;
+        text-align: center;
+
+
+
+    }
+}
+
+.pcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.circle {
+    border-radius: 50%;
+
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+    
+}
+.pause{
+    animation-play-state: paused;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(.5, .5);
+        opacity: .5;
+    }
+
+    to {
+        transform: scale(2.5, 2.5);
+        opacity: 0;
+    }
+}
